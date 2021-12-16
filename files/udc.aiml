@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern> Hi?</pattern>
-    <template>I have no answer for that.</template>
+      <pattern> Hello!</pattern>
+      <template> How can I help you? </template>
   </category>
   <category>
-      <pattern> What is your name ?</pattern>
-      <template> I dont know </template>
-  </category>
-</aiml>
+      <pattern> Show me the map of Paris</pattern>
+      <template> Here is the map of Paris</template>
+      <button>
+          <url> https://www.google.com/maps?q=paris+map&uact=5&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgcIABCwAxBDOgUIABCRAjoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBEKMCOggILhCxAxCDAToKCAAQkQIQRhD_AToICAAQsQMQgwE6BQguEIAEOg0ILhCxAxDHARDRAxBDOgsILhCABBCxAxCDAToKCAAQsQMQgwEQQzoICC4QgAQQsQM6BAgAEENKBAhBGABKBAhGGABQswZY3Q5gzhBoA3ACeACAAckBiAGTC5IBBTAuOC4xmAEAoAEByAEKwAEB&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjBm8jd7Of0AhW-3jgGHeL4CFwQ_AUoAXoECAEQAw</url>
+      </button>
+  </category> 
+  
+  
+  
